@@ -1,0 +1,49 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+✏️ Actividad: Inventario de Stock
+Imagina que estás trabajando en una aplicación que registra la cantidad de
+productos en un inventario. La información relevante incluye el nombre del producto
+y la cantidad disponible en stock.
+Tu tarea es utilizar un HashMap para gestionar esta información de manera
+eficiente.
+
+Pasos a seguir:
+● Crea un HashMap e inicializalo para almacenar el inventario de productos,
+donde las claves son los nombres de los productos y los valores son las
+cantidades en stock.
+
+💡Para garantizar que tu programa reduzca el error de ingresos de datos, y evitar
+duplicados, considera implementar un método que asegure que los datos
+ingresados se guarden siempre con el mismo formato.
+● Implementar la lógica para agregar nuevos productos al inventario y
+actualizar las cantidades de los productos existentes.
+● Desarrollar funciones para recuperar la cantidad de productos en stock y para
+verificar la existencia de un producto en el inventario.
