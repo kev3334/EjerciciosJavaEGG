@@ -1,0 +1,50 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
+✏️ Actividad Gestión de Reservas
+Te embarcarás en la construcción de un sistema simple de gestión de reservas para
+una sala de reuniones en una empresa. Cada reserva estará asociada con un
+identificador único, una fecha y el nombre del reservante. El objetivo es implementar
+un sistema eficiente utilizando la estructura de datos HashMap en Java.
+Pasos a seguir:
+● Define una clase Reserva con los siguientes atributos: identificador (String),
+fecha (String) y nombre del reservante (String). Implementa los métodos
+necesarios, como constructores y toString().
+● Crea una clase SistemaGestionReservas que contenga un HashMap que
+asocie identificadores únicos de reservas con objetos Reserva.
+● Implementa las siguientes operaciones en la clase SistemaGestionReservas:
+● agregarReserva: Agrega una nueva reserva al sistema.
+● obtenerReserva: Retorna una reserva dado su identificador.
+
+● eliminarReserva: Elimina una reserva dado su identificador.
+● Implementa una función en SistemaGestionReservas que muestre el estado
+actual del sistema, incluyendo todas las reservas almacenadas y la cantidad
+total de reservas.
